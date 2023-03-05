@@ -4,6 +4,9 @@ import Landing from "./pages/Landing"
 import Home from "./pages/Home"
 import Login from "./pages/Login";
 import Signup from "./pages/Signup"
+import Karaoke from "./pages/Karaoke.jsx"
+import Instruments from "./pages/Instruments";
+import Remix from "./pages/Remix"
 function App() {
   return (
     <>
@@ -13,6 +16,9 @@ function App() {
         <Route path="/home" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
+        <Route path="/karaoke" element={<Karaoke/>}/>
+        <Route path="/instruments" element={<Instruments/>}/>
+        <Route path="/remix" element={<Remix/>}/>
       </Routes>
     </BrowserRouter>
     </>
