@@ -1,0 +1,105 @@
+/* creating variables */
+:root {
+  --primary-color: #111111;
+  --secondary-color: #00e600;
+  --text-color: #d1d1e0;
+}
+
+@font-face {
+  font-family: "clash display variable";
+  src: url(../../fonts/FontsFree-Net-ClashDisplay-Variable.ttf);
+}
+@font-face {
+  font-family: "Nato sans JP";
+  src: url(../../fonts/Noto\ Sans\ JP\ 400.ttf);
+}
+@font-face {
+  font-family: "Nato sans JP";
+  src: url(../../fonts/Noto\ Sans\ JP\ 400.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #101010;
+  color: var(--text-color);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.main-container {
+  /* border: 2px solid blue; */
+  background: var(--primary-color);
+  width: 90vw;
+  margin: 10rem auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+/* .main-container:hover {
+  transition: 1s ease-in-out;
+  box-shadow: -2px -3px 68px 61px var(--secondary-color);
+} */
+.heading-section h1 {
+  font-size: 4rem;
+  color: var(--text-color);
+  font-family: "clash display variable";
+}
+.heading-section h1 span {
+  color: var(--secondary-color);
+}
+.random-texts {
+  /* border: 2px solid plum; */
+}
+.random-texts h3 {
+  font-family: "Nato sans JP";
+}
+
+.song-cards {
+  /* border: 2px solid green; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.card {
+  flex-basis: 20%;
+}
+.card img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.down_head h2 {
+  font-family: "clash display variable";
+  font-weight: 600;
+  /* letter-spacing: 2rem; */
+}
+.down_head h3 {
+  font-family: "Nato sans JP";
+}
+.instrumental-inner h2 {
+  font-family: "clash display variable";
+  font-weight: 600;
+}
+
+@media (min-width: 802px) {
+  .song-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1090px) {
+  .song-cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1476px) {
+  .song-cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
