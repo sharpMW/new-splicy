@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from "../components/Navbar";
+import Card from "../components/Home/Card"
+
+
 const Home = () => {
   return (
     <>
-    <div>This is home</div>
+      <Navbar />
+      <Card />
     </>
-  )
-}
+  );
+};
 
 export default Home

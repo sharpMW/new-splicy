@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css';
-import Landing from "./pages/Landing"
-import Home from "./pages/Home"
+import "./App.css";
+import Landing from "./pages/Landing";
+import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup"
 import Karaoke from "./pages/Karaoke.jsx"
