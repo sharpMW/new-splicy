@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* body {
+  font-family: 'Noto Sans'
+} */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: clashDisplay;
+  src: url(./fonts/FontsFree-Net-ClashDisplay-Variable.ttf);
+}
+@font-face {
+  font-family: Noto Sans 400;
+  src: url(./fonts/body/Noto\ Sans\ JP\ 400.ttf);
+}
+@font-face {
+  font-family: Noto Sans 900;
+  src: url(./fonts/body/Noto\ Sans\ JP\ Black\ 900.ttf);
+}
+@font-face {
+  font-family: Noto Sans 700;
+  src: url(./fonts/body/Noto\ Sans\ JP\ Bold\ 700.ttf);
+}
+@font-face {
+  font-family: Noto Sans 300;
+  src: url(./fonts/body/Noto\ Sans\ JP\ Light\ 300.ttf);
+}
+@font-face {
+  font-family: Noto Sans 500;
+  src: url(./fonts/body/Noto\ Sans\ JP\ Medium\ 500.otf);
+}
+@font-face {
+  font-family: Noto Sans 250;
+  src: url(./fonts/body/Noto\ Sans\ JP\ Thin\ 250.ttf);
 }

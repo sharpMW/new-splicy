@@ -1,0 +1,164 @@
+body {
+  background-color: #121212;
+  color: #ffff;
+}
+.main-container {
+  display: flex;
+  padding: 10rem 0;
+}
+
+.text-area {
+  width: 30%;
+  margin-left: 2rem;
+  margin-top: 8rem;
+}
+
+.primay-heading {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 68.88px;
+  letter-spacing: 4%;
+}
+
+.para {
+  font-size: 16px;
+  line-height: 23.17px;
+}
+
+.img-section {
+  position: relative;
+  height: 512px;
+  width: 516px;
+  margin-top: 4rem;
+}
+
+.img-section > img {
+  position: absolute;
+}
+
+.img-section img:nth-child(4) {
+  left: 89%;
+  z-index: 10;
+}
+
+.img-section img:nth-child(3) {
+  left: 80%;
+  z-index: 9;
+}
+
+.img-section img:nth-child(2) {
+  z-index: 8;
+  left: 40%;
+}
+
+
+.img-section > img {
+  position: absolute;
+}
+
+.cover-img-section > img {
+  position: relative;
+}
+
+.cover-img-section img:nth-child(1) {
+  margin-top: 10%;
+  right: 0%;
+}
+
+.cover-img-section img:nth-child(2) {
+  left: 24%;
+  position: absolute;
+  top: 23%;
+}
+
+.cover-img-section img:nth-child(3) {
+  left: 47%;
+  z-index: 1;
+  top: 60%;
+  position: absolute;
+}
+
+.cover-img-section img:nth-child(4) {
+  left: 55%;
+  position: absolute;
+  top: 8%;
+}
+
+.cover-img-section img:nth-child(5) {
+  left: 87%;
+  top: 41%;
+  position: absolute;
+}
+
+.splicy-text-area {
+  text-align: center;
+}
+
+.splicy-text-area h2 {
+  color: #6ae89c;
+  /* font-family: "Inter", sans-serif; */
+  font-weight: 400;
+  font-size: 88px;
+  position: absolute;
+  top: 45%;
+  left: 35.5%;
+}
+
+.splicy-text-area p {
+  width: 52%;
+  margin: 4rem auto;
+  text-align: justify;
+}
+
+@media (max-width: 890px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container img {
+    width: 70%;
+  }
+
+  .text-area {
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-section img:nth-child(4) {
+    left: 99%;
+    width: 50%;
+  }
+
+  .img-section img:nth-child(3) {
+    left: 70%;
+  }
+
+  .splicy {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .splicy img {
+    max-width: 100%;
+  }
+
+  .cover-img-section img:nth-child(1),
+  .cover-img-section img:nth-child(2),
+  .cover-img-section img:nth-child(3),
+  .cover-img-section img:nth-child(4),
+  .cover-img-section img:nth-child(5) {
+    position: relative;
+    margin: 0;
+    left: 0;
+  }
+
+  .splicy-text-area h2 {
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+
+  .splicy-text-area p {
+    width: 90%;
+  }
+}
