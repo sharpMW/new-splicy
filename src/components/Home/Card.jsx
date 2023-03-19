@@ -8,8 +8,8 @@ const Card = () => {
     <div>
       <section className="main-container">
         <div className="heading-section">
-          <h1>
-            hi, <span className="ml-5">Saarim</span>
+          <h1 className="font-heading">
+            Hi, <span className="ml-5">Saarim</span>
           </h1>
         </div>
         <div className="random-texts">
